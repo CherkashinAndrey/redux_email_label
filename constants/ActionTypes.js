@@ -1,6 +1,5 @@
 export const ADD_LIST = 'ADD_LIST'
 export const DELETE_LIST = 'DELETE_LIST'
-export const TEST = 'TEST'
 export const EMAIL_ACTIVE = 'EMAIL_ACTIVE'
 export const ACTIVE_LABLES = 'ACTIVE_LABLES'
 export const DELETE_LABLES = 'DELETE_LABLES'

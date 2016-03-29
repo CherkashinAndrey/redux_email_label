@@ -1,4 +1,4 @@
-import { ADD_LIST, DELETE_LIST, TEST, EMAIL_ACTIVE, ACTIVE_LABLES, DELETE_LABLES, SHOW_DEL} from '../constants/ActionTypes'
+import { ADD_LIST, DELETE_LIST, EMAIL_ACTIVE, ACTIVE_LABLES, DELETE_LABLES, SHOW_DEL} from '../constants/ActionTypes'
 
 const initialState = [
   {
@@ -29,17 +29,6 @@ const initialState = [
 
 export default function Email(state = initialState, action) {
   switch (action.type) {
-    case TEST:
-      return [
-        {
-          id: 1,
-          type: '',
-          active: true,
-          text: action.text
-          
-        }, 
-        ...state
-      ]
 
     case EMAIL_ACTIVE:
       return state.map(email =>

@@ -2,8 +2,6 @@ import React, { Component, PropTypes } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import * as action from '../actions'
-//import ListItem from '../components/listItem'
-
 
 class List extends Component {
 	_onClick(e) {

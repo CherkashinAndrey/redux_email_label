@@ -1,11 +1,9 @@
 import * as types from '../constants/ActionTypes'
 
 export function addList(text) {
-  return (dispatch, getState) => {
-    dispatch({type: 'ADD_LIST', text: text})
-/*  console.log('getstate->>', getState());
-    console.log('getstateEMAIL->>', getState().email);
-    console.log('getstateEMAIL->>', getState().list);*/
+  return { 
+    type: types.ADD_LIST,
+    text: text 
   }
 }
 
@@ -13,13 +11,6 @@ export function deleteList(id) {
   return { 
     type: types.DELETE_LIST,
     id 
-  }
-}
-
-export function test(typeList) {
-  return { 
-    type: types.TEST,
-    typeList 
   }
 }
 
