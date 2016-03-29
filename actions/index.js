@@ -48,7 +48,6 @@ export function delLables(label) {
 export function showDel(email) {
   return (dispatch, getState) => {
     dispatch({type: 'SHOW_DEL', getstate: getState().email})
-    console.log('getstate->>', getState().email);
   }
 }
 

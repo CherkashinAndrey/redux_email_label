@@ -42,8 +42,6 @@ export default function Email(state = initialState, action) {
       ]
 
     case EMAIL_ACTIVE:
-    console.log('!state',state);
-    console.log('action',action);
       return state.map(email =>
         email.id === action.id ?
           Object.assign({}, email, { active: !email.active }) :

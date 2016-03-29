@@ -35,7 +35,6 @@ class List extends Component {
 
   render() {
     const { lists } = this.props
-    console.log('lists',lists);
     return (
       <div className="list">
         LABLES:
