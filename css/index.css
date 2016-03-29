@@ -1,0 +1,27 @@
+.list {
+  width: 300px;
+  float: left;	
+  background: #ddd;
+}  
+
+.email {
+  width: 400px;
+  float: left;	
+}  
+
+.item {
+	display: inline-block;
+}
+
+.delItem {
+	float: right;
+}
+
+.delText {
+    float: right;
+    padding-right: 25px;
+}
+
+.emailLable {
+	padding-left: 15px;
+}
